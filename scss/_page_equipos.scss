@@ -1,0 +1,129 @@
+
+/* estilos a los equipos */
+
+.animate__bounce {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0;
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+  }
+
+  .csgo_container {
+    width: 100%;
+    margin: 50px auto;
+  }
+  
+  .p_csgo {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 0;
+    color: $color-primario;
+  }
+  
+  .csgo_banner {
+    background-image: url(IMAGENES/fondoCSGO.png);
+    font-size: 2rem;
+    text-align: center;
+    height: 40px;
+    background-size: cover;
+    color: $color-primario;
+    margin: 25px 0px;
+  }
+  // .img__csgo img{
+  //   margin: 15px auto;
+  // }
+  
+  .lol_container {
+    margin: 50px auto;
+  }
+  
+  .p_lol {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  
+  .lol_banner {
+    background-image: url(IMAGENES/fondoLOL.jpg);
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-size: cover;
+    color: $color-primario;
+    margin: 25px 0px;
+  }
+  .equipos__h3{
+    font-size: 1.3em;  
+  }
+  .img__equipos{
+      height: 100%;
+      width: 100%;
+      margin: 2em 0;
+      border-radius: 4;
+    }
+@media only screen and (min-width: 768px) {
+
+    /* estilos a los equipos */
+    .csgo_container {
+      margin: 50px 0;
+    }
+    .csgo_banner {
+      background-image: url(IMAGENES/fondoCSGO.png);
+      background-size: contain;
+      height: 5rem;
+      color: $color-primario;
+      letter-spacing: 8px;
+      margin-bottom: 2rem;
+    }
+    .csgo {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem 0;
+    }
+    .p_csgo {
+      margin: 3rem 0;
+      font-size: 1.8rem;
+    }
+    .lol_container {
+      margin: 50px 0;
+    }
+    .lol_banner {
+      background-image: url(IMAGENES/fondoLOL.jpg);
+      background-size: contain;
+      height: 5rem;
+      color: $color-primario;
+      letter-spacing: 8px;
+      margin-bottom: 2rem;
+    }
+    .lol {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem 0;
+    }
+    .p_lol {
+      margin: 3rem 0;
+      font-size: 1.8rem;
+    }
+    .img__equipos{
+      height: 400px;
+      width: 400px;
+      margin: 2em;
+      border-radius: 6;
+    }
+ 
+}
+@media only screen and (min-width: 1440px) {
+  .equipos__container{
+    font-size: 3em;
+  }
+  .main__equipos p{
+    font-size: 1.2em;
+  }
+}

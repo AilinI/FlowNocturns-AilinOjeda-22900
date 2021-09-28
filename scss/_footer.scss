@@ -1,0 +1,60 @@
+
+/* Estilos del footer fijo en cada página */
+.redes {
+    display: grid;
+    grid-template-areas: "h3-redes" "redes__div__ig" "redes__div__fb" "redes__div__twth" "redes__div__tw" "redes__logo__img";
+    grid-template-columns: 2fr 1fr 1px 1fr 1px 1fr 1px 1fr 2fr;
+    grid-template-rows: 6rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #E84603;
+    font-size: 1rem;
+  }
+  
+  .redes__div img {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+  
+  .redes__logo__img {
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .redes h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  @media only screen and (min-width: 768px) {
+
+  /* Estilos del footer fijo en cada página */
+  .redes {
+    display: grid;
+    grid-template-areas: "h3_titulos" "redes_div__ig" "redes__div__fb" "redes__div__twth" "redes__div__tw" "redes__logo__img";
+    grid-template-columns: 2fr 1fr 1px 1fr 1px 1fr 1px 1fr 2fr;
+    grid-template-rows: 11rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 12rem;
+    width: 100%;
+    background-color: #E84603;
+  }
+  .redes div a img {
+    height: 50px;
+    width: 50px;
+  }
+  .redes img {
+    height: 150px;
+    width: 150px;
+  }
+  .redes h3 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+}

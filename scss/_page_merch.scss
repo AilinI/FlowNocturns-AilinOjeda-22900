@@ -1,0 +1,144 @@
+/* Estilos de la tienda */
+
+  
+  main.mainMerch {
+    height: fit-content;
+  }
+  .merch__car{
+    width: 100%;
+  }
+  .merch__car img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px auto;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .merch__productos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .merch__productos select {
+    color: $color-primario;
+    background-size: contain;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+  }
+  
+  .merch__productos__section {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .merch__productos__section select {
+    background-color: #E84603;
+    font-family: "Bangers";
+    border-style: hidden;
+    border-radius: 8px;
+  }
+  
+  .merch__productos__section button {
+    background-color: #e84603;
+    font-family: "Bangers";
+    background-size: contain;
+    justify-content: center;
+    width: 100px;
+    border-style: hidden;
+    border-radius: 8px;
+  }
+  
+  .merch__productos__section div {
+    margin: 1em auto;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .merch__productos__p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .merch__productos__items {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5rem;
+    background: #8c9697;
+  }
+  
+  .merch__personal img {
+    width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+
+
+    /* Estilos de la tienda */
+    .tiendaBody {
+        background: #cfdcde;
+        background: linear-gradient(0deg, #cfdcde 3%, #020024 95%);
+      }
+      .mainMerch {
+        margin: 1em 0;
+        padding-left: 10px;
+      }
+      main.mainMerch {
+        height: fit-content;
+      }
+      .merch{
+        display: flex;
+     
+      }
+      .merch__car {
+        display: flex;
+        width: 100%;
+      }
+      .merch__car img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+      }
+      .merch__productos {
+        width: 30%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background: #8c9697;
+        height: 80vh;
+      }
+      .merch__productos select {
+        background-color: $color-primario;
+        border-style: hidden;
+        border-radius: 8px;
+        height: 30px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+      }
+      .merch__productos__section {
+        margin: 0 auto;
+        display: flex;
+      }
+      .merch__productos__section div {
+        margin: 0 auto;
+    
+      }
+      .merch__productos__items {
+        width: 32%;
+        text-align: center;
+        padding-top: 2rem;
+        background: #8c9697;
+      }
+      .merch__personal {
+        display: none;
+      }
+    }

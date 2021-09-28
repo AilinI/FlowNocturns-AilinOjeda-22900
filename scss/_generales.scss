@@ -1,0 +1,63 @@
+/* Configuraciones de página generales a etiquetas */
+body {
+    font-family: 'Teko', sans-serif;
+      background: #cfdcde;
+      background: linear-gradient(0deg, #cfdcde 3%, #020024 95%);
+  }
+  /*clases que se repiten */
+.h3_titulos {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    color: $color-alternativo;
+  }
+  
+  .h3_titulos_blanco {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    color: $color-primario;
+  }
+  
+  .h4_subtitulos {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.6rem;
+    color:$color-alternativo;
+  }
+  
+  .parrafo {
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+  @media only screen and (min-width: 768px) {
+    /*clases que se repiten */
+    .h3_titulos {
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      font-size: 3rem;
+      color: $color-alternativo;
+    }
+    .h3_titulos_blanco {
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      font-size: 3rem;
+      color: $color-primario;
+    }
+    .h4_subtitulos {
+      width: 100%;
+      padding: 8px;
+      text-align: center;
+      font-size: 2.2rem;
+      color:$color-alternativo;
+    }
+    .parrafo {
+      padding: 15px;
+      font-size: 1.8rem;
+    }
+}

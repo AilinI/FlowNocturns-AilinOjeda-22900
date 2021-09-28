@@ -1,0 +1,129 @@
+
+/*contenido del main, apartado 1 index */
+.index__uno {
+    background-image: url(IMAGENES/moon-415501-mobile.jpg);
+    background-size: cover;
+  }
+  
+  .index__uno__h3 {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite;
+    animation-name: un_efecto;
+    animation-iteration-count: initial;
+    animation-timing-function: initial;
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
+  
+  @keyframes un_efecto {
+    0% {
+      width: 80%;
+    }
+    25% {
+      width: 100%;
+    }
+    50% {
+      width: 80%;
+    }
+  }
+  
+  .index__uno__div {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: $color-primario;
+  }
+  
+  
+  
+  /* apartado dos - video index*/
+  .index__dos {
+    text-align: center;
+    justify-items: center;
+    padding: 15px;
+  }
+  
+  .carousel-item img {
+    height: 250px;
+    object-fit: cover;
+    margin-top: 30px;
+  }
+  
+  #index__dos__video{
+    height: 40vh;
+  }
+  
+  #index__dos__video iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  dt {
+    font-size: 26px;
+  }
+  @media only screen and (min-width: 768px) {
+
+    /*contenido del main, apartado 1 index */
+    .index__uno {
+      height: 300px;
+      background-image: url(IMAGENES/moon-415501-mobile.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .index__uno__h3 {
+      width: 40%;
+      text-align: left;
+      margin-left: 2em;
+      font-size: 2em;
+      color: $color-primario;
+      animation-name: un_efecto;
+      animation-iteration-count: initial;
+      animation-timing-function: initial;
+      animation-duration: 3s;
+      animation-delay: 1s;
+    }
+    @keyframes un_efecto {
+      0% {
+        width: 30%;
+      }
+      25% {
+        width: 60%;
+      }
+      50% {
+        width: 40%;
+      }
+    }
+    .index__uno__div {
+      display: flex;
+      width: 60%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-right: 10px;
+      margin-left: 10px;
+      padding-left: 10px;
+      padding-right: 30px;
+      color: $color-primario;
+    }
+    /* apartado dos - video index*/
+    .index__dos {
+      width: 90%;
+      margin: 50px auto;
+      justify-items: center;
+    }
+    .index__car {
+      margin-top: 30px;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    #index__dos__video {
+      width: 60%;
+      height: 380px;
+      margin: 0 auto;
+    }
+  }
